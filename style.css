@@ -1,0 +1,56 @@
+/* Reset khoảng cách mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1. Thiết lập màu nền (background-color) cho toàn bộ trang web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5; /* Màu nền xám nhạt dịu mắt */
+    color: #333333;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Định dạng tiêu đề và đoạn văn mô tả */
+h1 {
+    color: #1a252f;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+/* 2. Thiết lập ảnh nền (background-image) và căn giữa cho khối div */
+.important-box {
+    max-width: 600px;
+    margin: 0 auto; /* Căn giữa khối div trên trang */
+    padding: 50px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    
+    /* Thiết lập hình ảnh nền */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Căn giữa nội dung văn bản trong khối div */
+    text-align: center;
+    color: #ffffff; /* Chữ màu trắng để nổi bật trên nền ảnh */
+}
+
+.important-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.important-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
